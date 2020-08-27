@@ -1,661 +1,1042 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html data-editor-version="2" class="sg-campaigns" xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-  <!--[if !mso]><!-->
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title> </title>
+  <!--[if !mso]><!-- -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!--<![endif]-->
-  <!--[if (gte mso 9)|(IE)]>
-      <xml>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+    #outlook a {
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    table,
+    td {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    img {
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+    }
+
+    p {
+      display: block;
+      margin: 13px 0;
+    }
+  </style>
+  <!--[if mso]>
+        <xml>
         <o:OfficeDocumentSettings>
           <o:AllowPNG/>
           <o:PixelsPerInch>96</o:PixelsPerInch>
         </o:OfficeDocumentSettings>
-      </xml>
-      <![endif]-->
-  <!--[if (gte mso 9)|(IE)]>
+        </xml>
+        <![endif]-->
+  <!--[if lte mso 11]>
+        <style type="text/css">
+          .mj-outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]-->
+  <!--[if !mso]><!-->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet" type="text/css">
   <style type="text/css">
-    body {width: 600px;margin: 0 auto;}
-    table {border-collapse: collapse;}
-    table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
-    img {-ms-interpolation-mode: bicubic;}
+    @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
   </style>
-<![endif]-->
+  <!--<![endif]-->
   <style type="text/css">
-    body,
-    p,
-    span,
-    div {
-      font-family: arial, helvetica, sans-serif;
-      font-size: 14px;
-    }
-
-    body {
-      color: #000000;
-      margin: 0px;
-    }
-
-    body a {
-      color: #000000;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: none !important;
-    }
-
-    p {
-      margin: 0;
-      padding: 0;
-    }
-
-    table.wrapper {
-      width: 100% !important;
-      table-layout: fixed;
-      -webkit-font-smoothing: antialiased;
-      -webkit-text-size-adjust: 100%;
-      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-    }
-
-    img.max-width {
-      max-width: 100% !important;
-    }
-
-    .column.of-2 {
-      width: 50%;
-    }
-
-    .column.of-3 {
-      width: 33.333%;
-    }
-
-    .column.of-4 {
-      width: 25%;
-    }
-
-    @media screen and (max-width:480px) {
-
-      .preheader .rightColumnContent,
-      .footer .rightColumnContent {
-        text-align: left !important;
+    @media only screen and (min-width:210px) {
+      .mj-column-per-70 {
+        width: 70% !important;
+        max-width: 70%;
       }
-
-      .preheader .rightColumnContent div,
-      .preheader .rightColumnContent span,
-      .footer .rightColumnContent div,
-      .footer .rightColumnContent span {
-        text-align: left !important;
+      .mj-column-per-30 {
+        width: 30% !important;
+        max-width: 30%;
       }
-
-      .preheader .rightColumnContent,
-      .preheader .leftColumnContent {
-        font-size: 80% !important;
-        padding: 5px 0;
-      }
-
-      table.wrapper-mobile {
+      .mj-column-per-100 {
         width: 100% !important;
-        table-layout: fixed;
+        max-width: 100%;
       }
-
-      img.max-width {
-        height: auto !important;
-        max-width: 100% !important;
+      .mj-column-per-50 {
+        width: 50% !important;
+        max-width: 50%;
       }
-
-      a.bulletproof-button {
-        display: block !important;
+    }
+  </style>
+  <style type="text/css">
+    @media only screen and (max-width:210px) {
+      table.mj-full-width-mobile {
+        width: 100% !important;
+      }
+      td.mj-full-width-mobile {
         width: auto !important;
-        font-size: 80%;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-      }
-
-      .columns {
-        width: 100% !important;
-      }
-
-      .column {
-        display: block !important;
-        width: 100% !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-      }
-
-      .social-icon-column {
-        display: inline-block !important;
       }
     }
   </style>
-  <style>
-
-  </style>
-  <!--user entered Head Start-->
-  <!--End Head user entered-->
 </head>
 
-<body style="margin:0px;">
-  <center class="wrapper" data-link-color="#000000"
-    data-body-style="font-size:14px; font-family:arial,helvetica,sans-serif; color:#000000; background-color:#FFFFFF;">
-    <div class="webkit">
-      <table cellpadding="0" cellspacing="0" border="0" width="100%" class="wrapper" bgcolor="#FFFFFF">
+<body style="background-color:#414141;">
+  <div style="background-color:#414141;">
+    <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper-rule-outlook" style="width:600px;" width="600"
+      >
         <tr>
-          <td valign="top" bgcolor="#FFFFFF" width="100%">
-            <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
-              <tr>
-                <td width="100%">
-                  <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                    <tr>
-                      <td>
-                        <table width="100%" cellpadding="0" cellspacing="0" border="0"
-                          style="width:100%; max-width:600px;" align="center">
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    <div class="wrapper-rule" style="background:#000000;background-color:#000000;margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;background-color:#000000;width:100%;">
+        <tbody>
+          <tr>
+            <td style="border-bottom:0.5px solid #1f9d56;direction:ltr;font-size:0px;padding:1% 0;text-align:center;">
+              <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:420px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-70 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tr>
+                    <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                        <tbody>
                           <tr>
-                            <td style="padding:0px 0px 0px 0px; color:#000000; text-align:left;" bgcolor="#FFFFFF"
-                              width="100%" align="left">
-                              <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%"
-                                style="padding:0px 0px 0px 0px;" bgcolor="#000000">
-                                <tbody>
-                                  <tr>
-                                    <td height="100%" valign="top">
-                                      <table width="100%"
-                                        style="width: 100%;max-width: 600px; border-spacing:0; border-collapse:collapse; margin:0px 0px 0px 0px;"
-                                        cellpadding="0" cellspacing="0" align="left" border="0" bgcolor=""
-                                        class="column column-0">
-                                        <tbody>
-                                          <tr>
-                                            <td style="padding:0px;margin:0px;border-spacing:0;">
-                                              <table class="wrapper" border="0" cellpadding="0" cellspacing="0"
-                                                width="100%" style="table-layout: fixed;">
-                                                <tbody>
-                                                  <tr>
-                                                    <td
-                                                      style="font-size:6px; line-height:10px; padding:3% 4%;border-bottom: 0.5px solid #1f9d56;;"
-                                                      valign="top" align="left">
-                                                      <div style="display:inline-block; width: 85%;"">
-                                                        <img class=" max-width" border="0"
-                                                        style="color:#000000; text-decoration:none;max-width:300px !important; width:65%; height:auto !important; font-family:Helvetica, arial, sans-serif; font-size:16px;"
-                                                        alt="" data-responsive="true"
-                                                        src="https://github.com/firebellyppt/images/blob/master/img/kklogo.png?raw=true"
-                                                        width="300">
-                                                      </div>
-                                                      <div style="display: inline-block;width: 13%;">
-                                                        <img class="max-width" border="0"
-                                                          style="color:#000000; text-decoration:none;max-width:65px !important; width:100%; height:auto !important; font-family:Helvetica, arial, sans-serif; font-size:16px;"
-                                                          alt="" data-responsive="true"
-                                                          src="https://raw.githubusercontent.com/firebellyppt/images/master/img/FB_HEADER.png"
-                                                          width="65">
-                                                      </div>
-                                                    </td>
-                                                  </tr>
-                                                </tbody>
-                                              </table>
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </tbody>
-                              </table>
-
-                              <table class="spacediv" border="0" cellpadding="0" cellspacing="0" width="100%"
-                                style="table-layout: fixed;" bgcolor="#000000">
-                                <tbody>
-                                  <tr>
-                                    <td height="24"></td>
-                                  </tr>
-                                </tbody>
-                              </table>
-
-                              <table border="0" cellpadding="0" cellspacing="0" width="100%"
-                                style="table-layout: fixed;" bgcolor="#000000">
-                                <tbody>
-                                  <tr>
-                                    <td height="100%">
-                                      <div style="width:100%;">
-                                        <img
-                                          src="https://github.com/firebellyppt/images/blob/master/img/Image_banner.png?raw=true"
-                                          alt="" width="100%" height="100%"
-                                          style="font-family:NotoSansHans-Black Helvetica, arial, sans-serif;">
-                                      </div>
-                                    </td>
-                                  </tr>
-                                </tbody>
-                              </table>
-
-                              <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%"
-                                bgcolor="#000000">
-                                <tbody>
-                                  <tr>
-                                    <td height="100%" valign="top" style="padding:0px 2% 0px 2%;">
-                                      <table style="width:100%; border-spacing:0; border-collapse:collapse;"
-                                        cellpadding="0" cellspacing="0" align="left" border="0" bgcolor=""
-                                        class="column column-0">
-                                        <tbody>
-                                          <tr>
-                                            <td style="padding:0px;margin:0px;border-spacing:0;">
-                                              <table border="0" cellpadding="0" cellspacing="0" width="100%"
-                                                style="table-layout: fixed;">
-                                                <tbody>
-                                                  <tr>
-                                                    <td
-                                                      style="padding:3% 0px 2% 0px; line-height:30px; text-align:inherit;"
-                                                      height="100%" valign="top" bgcolor="">
-                                                      <div style="padding-left: 2% ;">
-                                                        <div
-                                                          style="font-family:arial,helvetica,sans-serif; text-align: left">
-                                                          <span
-                                                            style="color: #ffffff; font-family: arial, helvetica, sans-serif; font-size: 20px">Hi
-                                                            {{ last_name | default }},</span>
-                                                        </div>
-                                                        <div
-                                                          style="font-family:arial,helvetica,sans-serif; text-align: left; width: 100%;padding-top: 3%;">
-                                                          <span
-                                                            style="font-family: arial, helvetica, sans-serif; font-size: 17px; line-height: 23px; color:#b7b7b7;                                                            ">To
-                                                            We' re glad you could join us.
-                                                            Kkpoker provides you exciting and diverse poker games.
-                                                            All the fun and joy are waiting for you to enjoy.
-                                                            Before you start, here is the one thing you have to know at
-                                                            beginning,
-                                                            we offer you a fantastic deal!
-                                                            Simply invite your friends to join kkpoker,
-                                                            up to 70% affilicate revenue are waiting for you to earn.
-                                                          </span>
-                                                        </div>
-                                                      </div>
-                                                    </td>
-                                                  </tr>
-                                                </tbody>
-                                              </table>
-                                              <table border="0" cellpadding="0" cellspacing="0"
-                                                style="table-layout:fixed;" width="98%" align="center">
-                                                <tbody>
-                                                  <tr>
-                                                    <td align="center" style="padding:2% 0px 2% 0px;" align="center">
-                                                      <p style="font-family: NotoSansHans, arial, helvetica, sans-serif;
-                                                      font-size: 21px;
-                                                      font-weight: 900;
-                                                      font-stretch: normal;
-                                                      font-style: normal;
-                                                      line-height: 0.71;
-                                                      letter-spacing: normal;
-                                                      text-align: center;
-                                                      color: #ffffff;">INVITATION CODE</p>
-                                                    </td>
-                                                  </tr>
-                                                  <tr>
-                                                    <td align="center" style="padding:0px 0px 0px 0px;" width="100%">
-                                                      <table border="0" cellpadding="0" cellspacing="0" width="100%"
-                                                        style="text-align:center;table-layout:fixed;">
-                                                        <tbody>
-                                                          <tr>
-                                                            <td align="center" height="100" width="100%" align="center"
-                                                              style="border-radius:6px;
-                                                              font-size:16px;
-                                                              text-align:center;">
-                                                              <div style="width: 80%;height: 66px;
-                                                                background-color: #1f9d56;
-                                                                padding:1%;
-                                                                margin: 0 auto;
-                                                                border-radius: 4px;
-                                                                white-space: nowrap;">
-                                                                <div
-                                                                  style="display: inline-block; width: 100%; height: 100%;">
-                                                                  <div style="display: inline-block;
-                                                                  width: 70%;
-                                                                  height: 100%;
-                                                                  background-color: #3a3a3a;
-                                                                  /* padding-left: 2%; */
-                                                                  border-top-left-radius: 4px;
-                                                                  border-bottom-left-radius: 4px;">
-                                                                    <p style="font-family: NotoSansHans, arial, helvetica, sans-serif;
-                                                                    font-size: 30px;
-                                                                    font-weight: 900;
-                                                                    color: #ffffff;
-                                                                    line-height: 71px;
-                                                                    height: 100%;
-                                                                    text-align: center;
-                                                                    letter-spacing: 3px;">123456</p>
-                                                                  </div>
-                                                                  <div
-                                                                    style="display: inline-block; width:30%;vertical-align: top;">
-                                                                    <p style="font-family: NotoSansHans, arial, helvetica, sans-serif;
-                                                                    font-size: 20px;
-                                                                    font-weight: 900;
-                                                                    color: #ffffff;
-                                                                    line-height: 71px;
-                                                                    height: 100%;
-                                                                    text-align: center;">
-                                                                      COPY
-                                                                    </p>
-                                                                  </div>
-                                                                </div>
-                                                              </div>
-                                                            </td>
-                                                          </tr>
-                                                        </tbody>
-                                                      </table>
-                                                    </td>
-                                                  </tr>
-                                                  <tr>
-                                                    <td style=" padding-top: 7%;">
-                                                      <p
-                                                        style="color:#b7b7b7; font-family: arial, helvetica, sans-serif; font-size: 17px;line-height: 23px;">
-                                                        Copy invite code and paste to your friends,
-                                                        inviteing more and
-                                                        more friends to join you now!</p>
-                                                    </td>
-                                                  </tr>
-                                                  <tr>
-                                                    <td style="padding-top: 5%;">
-                                                      <table border="0" cellpadding="0" cellspacing="0" width="100%"
-                                                        style="table-layout:fixed;">
-                                                        <tr>
-                                                          <td width="50%" height="100%">
-                                                            <table border="0" cellpadding="0" cellspacing="0"
-                                                              width="100%">
-                                                              <tr>
-                                                                <td align="center">
-                                                                  <img
-                                                                    src="https://github.com/firebellyppt/images/blob/master/img/KKEDM_IMG015.jpg?raw=true"
-                                                                    alt="" width="253" height="160">
-                                                                </td>
-                                                              </tr>
-                                                              <tr>
-                                                                <td height="70" width="100%"
-                                                                  style="padding:2%;padding-left: 5%;" align="center">
-                                                                  <p style="font-family: PingFang SC;
-                                                                  font-size: 18px;
-                                                                  font-weight: normal;
-                                                                  font-stretch: normal;
-                                                                  font-style: normal;
-                                                                  line-height: 1.28;
-                                                                  letter-spacing: normal;
-                                                                  text-align: left;
-                                                                  color: #ffffff;">CHALLENGE KKPOKER
-                                                                    WEEKLY MTT TO WIN THE
-                                                                    HUGE PRIZE.</p>
-                                                                </td>
-                                                              </tr>
-                                                            </table>
-                                                          </td>
-                                                          <td width="50%" height="100%">
-                                                            <table border="0" cellpadding="0" cellspacing="0"
-                                                              width="100%" style="table-layout:fixed;">
-                                                              <tr>
-                                                                <td align="center">
-                                                                  <img
-                                                                    src="https://github.com/firebellyppt/images/blob/master/img/KKEDM_IMG3.jpg?raw=true"
-                                                                    alt="" width="253" height="160">
-                                                                </td>
-                                                              </tr>
-                                                              <tr>
-                                                                <td height="70" width="100%"
-                                                                  style="padding:2%;padding-left: 5%;">
-                                                                  <p style="font-family: PingFang SC;
-                                                                  font-size: 18px;
-                                                                  font-weight: normal;
-                                                                  font-stretch: normal;
-                                                                  font-style: normal;
-                                                                  line-height: 1.28;
-                                                                  letter-spacing: normal;
-                                                                  text-align: left;
-                                                                  color: #ffffff;">EARN THE HIGH AFFILICATE
-                                                                    REVENUE BY INVITING YOUR
-                                                                    FRIENDS TO PLAY KKPOKER
-                                                                  </p>
-                                                                </td>
-                                                              </tr>
-                                                            </table>
-                                                          </td>
-                                                        </tr>
-                                                      </table>
-                                                    </td>
-                                                  </tr>
-                                                </tbody>
-                                              </table>
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                  <tr class="footer">
-                                    <td style="direction:ltr;font-size:0px;padding:10px 0px 10px 0;text-align:left;">
-                                      <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:580px;" ><![endif]-->
-                                      <div class="mj-column-per-100 mj-outlook-group-fix"
-                                        style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                          style="vertical-align:top;max-width:600px;" width="100%">
-                                          <tr>
-                                            <td style="font-size:0px;padding:10px 0px 10px 0px;word-break:break-word;">
-                                              <p
-                                                style="border-top:solid 1px #1f9d56;font-size:1;margin:0px auto;width:100%;">
-                                              </p>
-                                              <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #414141;font-size:1;margin:0px auto;width:560px;" role="presentation" width="560px" ><tr><td style="height:0;line-height:0;"> &nbsp;
-                              </td></tr></table><![endif]-->
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <td align="center" style="padding: 0.3%;" width="100%">
-                                              <p style="font-family: PingFang SC, arial, helvetica, sans-serif;
-                                              font-size: 14px;
-                                              font-weight: bold;
-                                              font-stretch: normal;
-                                              font-style: normal;
-                                              line-height: 1.07;
-                                              letter-spacing: normal;
-                                              text-align: left;
-                                              color: #ffffff;
-                                              text-align:center">FOLLOW US ON:</p>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <td style="font-size:0px;padding:10px 0px 10px 0px;word-break:break-word;">
-                                              <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                                style="vertical-align:top;max-width:600px;" width="168" align="center">
-                                                <tr>
-                                                  <td align="center" style="padding:2%">
-                                                    <img
-                                                      src="https://github.com/firebellyppt/images/blob/master/img/soccial_icon_facebook.png?raw=true"
-                                                      alt="" srcset="" width="35" height="35">
-                                                  </td>
-                                                  <td align="center" style="padding:2%">
-                                                    <img
-                                                      src="https://github.com/firebellyppt/images/blob/master/img/soccial_icon_instagram.png?raw=true"
-                                                      alt="" srcset="" width="35" height="35">
-                                                  </td>
-                                                  <td align="center" style="padding:2%">
-                                                    <img
-                                                      src="https://github.com/firebellyppt/images/blob/master/img/soccial_icon_twitter.png?raw=true"
-                                                      alt="" srcset="" width="35" height="35">
-                                                  </td>
-                                                  <td align="center" style="padding:2%">
-                                                    <img
-                                                      src="https://github.com/firebellyppt/images/blob/master/img/soccial_icon_vk.png?raw=true"
-                                                      alt="" srcset="" width="35" height="35">
-                                                  </td>
-                                                </tr>
-
-                                              </table>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <td style="font-size:0px;padding:10px 0px 10px 0px;word-break:break-word;">
-                                              <p
-                                                style="border-top:solid 1px #1f9d56;font-size:1;margin:0px auto;width:100%;">
-                                              </p>
-                                              <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #414141;font-size:1;margin:0px auto;width:560px;" role="presentation" width="560px" ><tr><td style="height:0;line-height:0;"> &nbsp;
-                              </td></tr></table><![endif]-->
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <td align="left"
-                                              style="font-size:0px;padding:0px 6% 0px 6%;padding-top:0px;padding-bottom:0px;word-break:break-word;">
-                                              <div
-                                                style="font-family:Arial, sans-serif;font-size:16px;line-height:22px;text-align:left;color:#4a965b;">
-                                                <p style="line-height: 13px; 
-                                                  margin: 5px 0; 
-                                                  text-align: left;
-                                                  font-size:14px;color:#4a965b;
-                                                  font-family: PingFang SC 'verdena',Helvetica,Arial,sans-serif;
-                                                  font-size: 14px;
-                                                  font-weight: bold;
-                                                  font-stretch: normal;
-                                                  font-style: normal;
-                                                  line-height: 1.07;
-                                                  letter-spacing: normal;
-                                                  text-align: left;
-                                                  color: #1f9d56;">
-                                                  <a href="https://www.kkpoker.net/pc/PrivacyPolicy" target="_blank"
-                                                    style="color:#4a965b;text-decoration: underline;">Privacy
-                                                    Policy</a>&nbsp;
-                                                  &nbsp;| &nbsp; <a href="https://www.kkpoker.net/pc/TermsOfService"
-                                                    target="_blank"
-                                                    style="color:#4a965b;text-decoration: underline;">Terms
-                                                    of Service</a>&nbsp; &nbsp;</p>
-                                              </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <td width="100%" height="100%"
-                                              style="padding:5% 2% 0;padding-left:4%; padding-right:4%">
-                                              <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                                role="presentation"
-                                                style="background:#000000;background-color:#000000;width:100%;height: 100%;">
-                                                <tr>
-                                                  <td align="left"
-                                                    style="font-size:0px;padding:0px 10px;padding-top:0px;padding-bottom:0px;word-break:break-word;">
-                                                    <div
-                                                      style="font-family:Arial, sans-serif;font-size:16px;line-height:22px;text-align:left;color:#4a965b;">
-                                                      <img src="https://kkpoker.net/mobile/static/img/home/icon_06.png"
-                                                        height="40" style="border:0; height:30px; margin-left:2%;">
-                                                      <img src="https://kkpoker.net/mobile/static/img/home/icon_07.png"
-                                                        height="40" style="border:0; height:30px; margin-left:2%;">
-                                                      <a href="https://www.gamcare.org.uk/?cn-reloaded=1"
-                                                        target="_blank"
-                                                        style="text-decoration:none; border:none; outline: none;">
-                                                        <img
-                                                          src="https://kkpoker.net/mobile/static/img/home/icon_08.png"
-                                                          height="40" style="border:0; height:30px; margin-left:2%;">
-                                                      </a>
-                                                      <a href="https://www.begambleaware.org/" target="_blank"
-                                                        style="text-decoration:none ; border:none; outline: none;display: inline-block;vertical-align: super;">
-                                                        <img
-                                                          src="https://kkpoker.net/mobile/static/img/home/icon_09.png"
-                                                          height="40"
-                                                          style="border:0; height:21px; margin-left:2%;margin-top: 2px;">
-                                                      </a>
-                                                      <a>
-                                                        <img
-                                                          src="https://kkpoker.net/mobile/static/img/home/icon_10.png"
-                                                          height="40" style="border:0; height:30px; margin-left:2%;">
-                                                      </a>
-                                                    </div>
-                                                  </td>
-                                                </tr>
-                                              </table>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <td style="font-size:0px;padding:2% 4% 2% 4%;word-break:break-word;">
-                                              <p
-                                                style="border-top:solid 1px #414141;font-size:1;margin:0px auto;width:100%;">
-                                              </p>
-                                              <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #414141;font-size:1;margin:0px auto;width:560px;" role="presentation" width="560px" ><tr><td style="height:0;line-height:0;"> &nbsp;
-                              </td></tr></table><![endif]-->
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <td align="left"
-                                              style="font-size:0px;padding:1% 4% 1% 4%;word-break:break-word;">
-                                              <div
-                                                style="font-family:Arial, sans-serif;font-size:13px;line-height:22px;text-align:left;color:#55575d;">
-                                                <p
-                                                  style="line-height: 13px; margin: 5px 0; text-align: left;font-size:8px;color:#848484;font-family:'verdena',Helvetica,Arial,sans-serif">
-                                                  KKPoker
-                                                  is a brand and registered business name owned by AceKing IOM
-                                                  Limited.
-                                                  AceKing IOM Limited,
-                                                  having its
-                                                  registered address at 49 Victoria Street, Douglas, Isle of
-                                                  Man, IM1
-                                                  2LD, is licensed and
-                                                  regulated by
-                                                  the Isle of Man Gambling Supervision Commission (license
-                                                  issued on 24
-                                                  th July 2019). Persons
-                                                  under the
-                                                  age of 18 are not allowed to create accounts and/or
-                                                  participate in
-                                                  gambling at KKPoker.
-                                                  Online Gambling
-                                                  debts are enforceable in law in the Isle of Man.
-                                                  <br>
-                                                  <br>
-                                                  The
-                                                  content of this email is confidential and intended for the
-                                                  recipient
-                                                  specified in message
-                                                  only. It is
-                                                  strictly forbidden to share any part of this message with any
-                                                  third
-                                                  party, without a written
-                                                  consent of
-                                                  the sender. Should you receive this message by mistake, we
-                                                  would be
-                                                  most grateful if you
-                                                  informed us by
-                                                  return email that the message has been sent to you. In this
-                                                  case, we
-                                                  also ask that you
-                                                  delete this
-                                                  message from your mailbox, and do not forward it or any part
-                                                  of it to
-                                                  anyone else. Thank you
-                                                  for your
-                                                  cooperation and understanding. This message is sent to you
-                                                  because
-                                                  your email address is on
-                                                  our
-                                                  subscribers list. To unsubscribed from our subscribers list
-                                                  and stop
-                                                  receiving emails from
-                                                  us, please
-                                                  send an email to <a style="color:#FFFFFF;"
-                                                    href="mailto:privacy@kkpoker.net.">privacy@kkpoker.net</a>
-                                                </p>
-
-                                                <p
-                                                  style="line-height: 13px; margin: 5px 0; text-align: left;font-size:8px;color:#848484;font-family:'verdena',Helvetica,Arial,sans-serif">
-                                                  <br>
-                                                  Copyright
-                                                  © 2020 KKPoker. All Rights Reserved.</p>
-                                              </div>
-                                            </td>
-                                          </tr>
-                                        </table>
-                                      </div>
-                                      <!--[if mso | IE]></td></tr></table><![endif]-->
-                                    </td>
-                                  </tr>
-                                </tbody>
-                              </table>
+                            <td style="width:300px;"> <a href="https://www.kkpoker.net/pc/home?utm_medium=officialwebsite&utm_source=newsletter" target="_blank">
+          
+      <img
+         height="auto" src="https://github.com/firebellyppt/images/blob/master/img/kklogo.png?raw=true" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="300"
+      />
+    
+        </a> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+            <td
+               class="" style="vertical-align:top;width:180px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-30 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tr>
+                    <td align="right" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                        <tbody>
+                          <tr>
+                            <td style="width:65px;"> <a href="https://www.facebook.com/kkpokerglobal?utm_medium=facebook&utm_source=newsletter" target="_blank">
+          
+      <img
+         height="auto" src="https://raw.githubusercontent.com/firebellyppt/images/master/img/FB_HEADER.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="65"
+      />
+    
+        </a> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    <div style="background:#000000;background-color:#000000;margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;background-color:#000000;width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+              <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+        </tr>
+      
+                  </table>
+                <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      
+        <v:rect  style="width:600px;" xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false">
+        <v:fill  origin="0.5, 0" position="0.5, 0" src="https://github.com/firebellyppt/images/blob/master/img/Image_banner.png?raw=true" color="#000000" type="tile" />
+        <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+      <![endif]-->
+    <div style="background:#000000 url(https://github.com/firebellyppt/images/blob/master/img/Image_banner.png?raw=true) top center / cover no-repeat;margin:0px auto;max-width:600px;">
+      <div style="line-height:0;font-size:0;">
+        <table align="center" background="https://github.com/firebellyppt/images/blob/master/img/Image_banner.png?raw=true" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000 url(https://github.com/firebellyppt/images/blob/master/img/Image_banner.png?raw=true) top center / cover no-repeat;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+                <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                    <tr>
+                      <td style="font-size:0px;word-break:break-word;">
+                        <!--[if mso | IE]>
+    
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td height="29" style="vertical-align:top;height:29px;">
+      
+    <![endif]-->
+                        <div style="height:29px;"> &nbsp; </div>
+                        <!--[if mso | IE]>
+    
+        </td></tr></table>
+      
+    <![endif]-->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:helvetica;font-size:32px;font-weight:bold;line-height:1;text-align:left;color:#ffffff;">START YOUR</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:helvetica;font-size:32px;font-weight:bold;line-height:1;text-align:left;color:#ffffff;"><span style="color:#1f9d56">KK</span>POKER PARTY</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size:0px;word-break:break-word;">
+                        <!--[if mso | IE]>
+    
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td height="87" style="vertical-align:top;height:87px;">
+      
+    <![endif]-->
+                        <div style="height:87px;"> &nbsp; </div>
+                        <!--[if mso | IE]>
+    
+        </td></tr></table>
+      
+    <![endif]-->
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!--[if mso | IE]>
+        </v:textbox>
+      </v:rect>
+    
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    <div style="background:#000000;background-color:#000000;margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;background-color:#000000;width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+              <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tr>
+                    <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <div style="font-family:helvetica;font-size:23px;font-weight:bold;line-height:1;text-align:left;color:#ffffff;">Hi {nickname},</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <div style="font-family:helvetica;font-size:19px;line-height:24px;text-align:left;color:#b7b7b7;">We' re glad you could join us. Kkpoker provides you exciting and diverse poker games. All the fun and joy are waiting for you to enjoy. Before you start, here is the one thing you have to know at beginning, we offer you a fantastic
+                        deal! Simply invite your friends to join kkpoker, up to 70% affilicate revenue are waiting for you to earn.</div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    <div style="background:#000000;background-color:#000000;margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;background-color:#000000;width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0 10% 3% 10%;text-align:center;">
+              <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+            <tr>
+              <td
+                 class="" width="600px"
+              >
+          
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:580px;" width="580"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+              <div style="background:#000000;background-color:#000000;margin:0px auto;max-width:580px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;background-color:#000000;width:100%;">
+                  <tbody>
+                    <tr>
+                      <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+                        <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:580px;"
+            >
+          <![endif]-->
+                        <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                            <tr>
+                              <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                <div style="font-family:NotoSansHans;font-size:21px;font-weight:900;line-height:15px;text-align:center;color:#ffffff;">INVITATION CODE</div>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 class="" width="600px"
+              >
+          
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:580px;" width="580"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+              <div style="background:#1f9d56;background-color:#1f9d56;margin:0px auto;border-radius:6px;max-width:580px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#1f9d56;background-color:#1f9d56;width:100%;border-radius:6px;">
+                  <tbody>
+                    <tr>
+                      <td style="direction:ltr;font-size:0px;padding:2%;text-align:center;">
+                        <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:288px;"
+            >
+          <![endif]-->
+                        <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#3a3a3a;border-radius:6px 0 0 6px;vertical-align:top;" width="100%">
+                            <tr>
+                              <td align="center" style="font-size:0px;padding:8%;word-break:break-word;">
+                                <!--[if mso | IE]>
+    
+          <table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td height="15px" style="vertical-align:top;height:15px;">
+        
+    <![endif]-->
+                                <div style="font-family:NotoSansHans;font-size:26px;font-weight:900;line-height:15px;text-align:center;color:#ffffff;height:15px;">123456</div>
+                                <!--[if mso | IE]>
+    
+          </td></tr></table>
+        
+    <![endif]-->
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]>
+            </td>
+          
+            <td
+               class="" style="vertical-align:top;width:288px;"
+            >
+          <![endif]-->
+                        <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                            <tr>
+                              <td align="center" style="font-size:0px;padding:8%;word-break:break-word;">
+                                <!--[if mso | IE]>
+    
+          <table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td height="15px" style="vertical-align:top;height:15px;">
+        
+    <![endif]-->
+                                <div style="font-family:NotoSansHans;font-size:25px;font-weight:900;line-height:15px;text-align:center;color:#ffffff;height:15px;">COPY</div>
+                                <!--[if mso | IE]>
+    
+          </td></tr></table>
+        
+    <![endif]-->
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+              </td>
+            </tr>
+          
+                  </table>
+                <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    <div style="background:#000000;background-color:#000000;margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;background-color:#000000;width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+              <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tr>
+                    <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <div style="font-family:helvetica;font-size:19px;line-height:24px;text-align:left;color:#b7b7b7;">Copy invite code and paste to your friends, inviteing more and more friends to join you now!</div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    <div style="background:#000000;background-color:#000000;margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;background-color:#000000;width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+              <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:300px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tr>
+                    <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                        <tbody>
+                          <tr>
+                            <td style="width:250px;"> <img alt="" height="auto" src="https://github.com/firebellyppt/images/blob/master/img/KKEDM_IMG015.jpg?raw=true" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="250"
+                              /> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <div style="font-family:PingFang SC;font-size:15px;line-height:24px;text-align:left;color:#b7b7b7;">CHALLENGE KKPOKER WEEKLY MTT TO WIN THE HUGE PRIZE.</div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+            <td
+               class="" style="vertical-align:top;width:300px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tr>
+                    <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                        <tbody>
+                          <tr>
+                            <td style="width:250px;"> <img alt="" height="auto" src="https://github.com/firebellyppt/images/blob/master/img/KKEDM_IMG3.jpg?raw=true" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="250"
+                              /> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <div style="font-family:PingFang SC;font-size:15px;line-height:24px;text-align:left;color:#b7b7b7;">EARN THE HIGH AFFILICATE REVENUE BY INVITING YOUR FRIENDS TO PLAY KKPOKER</div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    <div style="background:#000000;background-color:#000000;margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;background-color:#000000;width:100%;">
+        <tbody>
+          <tr>
+            <td style="border-bottom:0.5px solid #1f9d56;border-top:0.5px solid #1f9d56;direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+              <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tr>
+                    <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <div style="font-family:PingFang SC;font-size:14px;font-weight:bold;line-height:24px;text-align:center;color:#ffffff;">FOLLOW US ON:</div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tr>
+                    <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+      >
+        <tr>
+      
+              <td>
+            <![endif]-->
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                        <tr>
+                          <td style="padding:5px;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:35px;">
+                              <tr>
+                                <td style="font-size:0;height:35px;vertical-align:middle;width:35px;"> <a href="https://www.facebook.com/kkpokerglobal?utm_medium=facebook&utm_source=newsletter" target="_blank">
+                    <img
+                       height="35" src="https://github.com/firebellyppt/images/blob/master/img/soccial_icon_facebook.png?raw=true" style="border-radius:3px;display:block;" width="35"
+                    />
+                  </a> </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                        <tr>
+                          <td style="padding:5px;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:35px;">
+                              <tr>
+                                <td style="font-size:0;height:35px;vertical-align:middle;width:35px;"> <a href="https://www.instagram.com/kkpokerglobal/?utm_medium=ins&utm_source=newsletter" target="_blank">
+                    <img
+                       height="35" src="https://github.com/firebellyppt/images/blob/master/img/soccial_icon_instagram.png?raw=true" style="border-radius:3px;display:block;" width="35"
+                    />
+                  </a> </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                        <tr>
+                          <td style="padding:5px;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:35px;">
+                              <tr>
+                                <td style="font-size:0;height:35px;vertical-align:middle;width:35px;"> <a href="https://twitter.com/kkpokerglobal?utm_medium=twitter&utm_source=newsletter" target="_blank">
+                    <img
+                       height="35" src="https://github.com/firebellyppt/images/blob/master/img/soccial_icon_twitter.png?raw=true" style="border-radius:3px;display:block;" width="35"
+                    />
+                  </a> </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                        <tr>
+                          <td style="padding:5px;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:35px;">
+                              <tr>
+                                <td style="font-size:0;height:35px;vertical-align:middle;width:35px;"> <a href="https://vk.com/kkpokercis?utm_medium=vk&utm_source=newsletter" target="_blank">
+                    <img
+                       height="35" src="https://github.com/firebellyppt/images/blob/master/img/soccial_icon_vk.png?raw=true" style="border-radius:3px;display:block;" width="35"
+                    />
+                  </a> </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso | IE]>
+              </td>
+            
+          </tr>
+        </table>
+      <![endif]-->
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    <div style="background:#000000;background-color:#000000;margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;background-color:#000000;width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+              <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tr>
+                    <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:14px;line-height:1;text-align:left;color:#1f9d56;"><a href="https://www.kkpoker.net/pc/PrivacyPolicy" target="_blank" style="color:#4a965b;text-decoration: underline;">Privacy
+            Policy</a>&nbsp; &nbsp;| &nbsp; <a href="https://www.kkpoker.net/pc/TermsOfService" target="_blank" style="color:#4a965b;text-decoration: underline;">Terms
+            of Service</a>&nbsp; &nbsp;</p>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tr>
+                    <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+      >
+        <tr>
+      
+              <td>
+            <![endif]-->
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                        <tr>
+                          <td style="padding:0px;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:80px;">
+                              <tr>
+                                <td style="font-size:0;height:47px;vertical-align:middle;width:80px;"> <a href="https://www.gov.im/categories/business-and-industries/gambling-and-e-gaming/licence-holders/" target="_blank">
+                    <img
+                       height="47" src="https://github.com/firebellyppt/images/blob/master/img/icon12.png?raw=true" style="border-radius:3px;display:block;" width="80"
+                    />
+                  </a> </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                        <tr>
+                          <td style="padding:0px;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:80px;">
+                              <tr>
+                                <td style="font-size:0;height:47px;vertical-align:middle;width:80px;"> <img height="47" src="https://github.com/firebellyppt/images/blob/master/img/icon16.png?raw=true" style="border-radius:3px;display:block;" width="80" /> </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                        <tr>
+                          <td style="padding:0px;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:80px;">
+                              <tr>
+                                <td style="font-size:0;height:47px;vertical-align:middle;width:80px;"> <a href="https://www.gamcare.org.uk/" target="_blank">
+                    <img
+                       height="47" src="https://github.com/firebellyppt/images/blob/master/img/icon15.png?raw=true" style="border-radius:3px;display:block;" width="80"
+                    />
+                  </a> </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                        <tr>
+                          <td style="padding:0px;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:165px;">
+                              <tr>
+                                <td style="font-size:0;height:48px;vertical-align:middle;width:165px;"> <a href="https://www.begambleaware.org/" target="_blank">
+                    <img
+                       height="48" src="https://github.com/firebellyppt/images/blob/master/img/icon14.png?raw=true" style="border-radius:3px;display:block;" width="165"
+                    />
+                  </a> </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                        <tr>
+                          <td style="padding:0px;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:48px;">
+                              <tr>
+                                <td style="font-size:0;height:48px;vertical-align:middle;width:48px;"> <img height="48" src="https://github.com/firebellyppt/images/blob/master/img/icon13.png?raw=true" style="border-radius:3px;display:block;" width="48" /> </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso | IE]>
+              </td>
+            
+          </tr>
+        </table>
+      <![endif]-->
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tr>
+                    <td style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <p style="border-top:solid 0.5px #414141;font-size:1px;margin:0px auto;width:100%;"> </p>
+                      <!--[if mso | IE]>
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 0.5px #414141;font-size:1px;margin:0px auto;width:550px;" role="presentation" width="550px"
+        >
+          <tr>
+            <td style="height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding-right:3%;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                          <tr>
+                            <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                              <div style="font-family:helvetica;font-size:11px;line-height:15px;text-align:left;color:#777777;">KKPoker is a brand and registered business name owned by AceKing IOM Limited. AceKing IOM Limited, having its registered address at 49 Victoria Street, Douglas, Isle of Man, IM1 2LD, is licensed and regulated by the Isle
+                                of Man Gambling Supervision Commission (license issued on 24th July 2019). Persons under the age of 18 are not allowed to create accounts and/or participate in gambling at KKPoker. Online Gambling debts are enforceable
+                                in law in the Isle of Man.</div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                              <div style="font-family:helvetica;font-size:11px;line-height:15px;text-align:left;color:#777777;">The content of this email is confidential and intended for the recipient specified in message only. It is strictly forbidden to share any part of this message with any third party, without a written consent of the sender.
+                                Should you receive this message by mistake, we would be most grateful if you inform us by return email that the message has been sent to you. In this case, we also ask that you delete this message from your mailbox, and
+                                do not forward it or any part of it to anyone else. Thank you for your cooperation and understanding. This message is sent to you because your email address is on our subscribers list. To unsubscribe from our subscribers
+                                list and stop receiving emails from us, please send an email to privacy@kkpoker.net</div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                              <div style="font-family:helvetica;font-size:11px;line-height:15px;text-align:left;color:#777777;">Copyright © 2020 KKPoker. All Rights Reserved.</div>
                             </td>
                           </tr>
                         </table>
                       </td>
                     </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
                   </table>
-                </td>
-              </tr>
-            </table>
+                <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]>
           </td>
         </tr>
       </table>
-    </div>
+      <![endif]-->
+  </div>
+</body>
+
+</html>

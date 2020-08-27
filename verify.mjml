@@ -1,0 +1,126 @@
+<mjml>
+ <mj-head>
+   <mj-breakpoint width="210px" />
+  </mj-head>
+  <mj-body background-color="#414141" >
+    <mj-section border-bottom="0.5px solid #1f9d56" background-color="#000000" padding="3% 0 1% 0 ">
+      <mj-column width="70%">
+        <mj-image width="260px" align="left" src="https://github.com/firebellyppt/images/blob/master/img/kklogo.png?raw=true" href="https://www.kkpoker.net/pc/home?utm_medium=officialwebsite&utm_source=newsletter"></mj-image>
+      </mj-column>
+      <mj-column width="30%">
+        <mj-image width="65px" align="right" src="https://raw.githubusercontent.com/firebellyppt/images/master/img/FB_HEADER.png" href="https://www.facebook.com/kkpokerglobal?utm_medium=facebook&utm_source=newsletter"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#000000"></mj-section>
+    <mj-section background-color="#000000" background-size="cover" background-url="https://github.com/firebellyppt/images/blob/master/img/Image_banner.png?raw=true" vertical-align="middle" background-repeat="no-repeat">
+      <mj-column width="100%">
+        <mj-spacer height="29px"></mj-spacer>
+        <mj-text font-weight="bold" align="left" font-size="32px" color="#ffffff" font-family="helvetica">WELCOME TO</mj-text>
+        <mj-text font-weight="bold" align="left" font-size="32px" color="#ffffff" font-family="helvetica">
+          <span style="color:#1f9d56">KK</span>POKER
+        </mj-text>
+        <mj-spacer height="87px"></mj-spacer>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#000000">
+      <mj-column>
+        <mj-text font-weight="bold" align="left" font-size="23px" color="#ffffff" font-family="helvetica">Hi {nickname},</mj-text>
+        <mj-text align="left" font-size="19px" color="#b7b7b7" font-family="helvetica" line-height="24px">
+          To strengthen your account security, kkpoker needs to verify your identity first.<br>
+          verifying your account will also allow account recovery if necessary.
+        </mj-text>
+        <mj-spacer height="14px"></mj-spacer>
+        <mj-button width="230px" height="46px" align="center" background-color="#1f9d56" border-radius="10px" font-family="PingFang SC" font-size="23px" href="https://www.google.com">Verify my email</mj-button>
+        <mj-spacer height="24px"></mj-spacer>
+        <mj-text align="left" font-size="19px" color="#b7b7b7" font-family="helvetica" line-height="24px">
+          Thank you for helping us strengthen your account security.This verification email will expire in 30 minutes.
+        </mj-text>
+        <mj-text align="right" font-size="19px" color="#b7b7b7" font-family="helvetica" line-height="24px">
+          -- KKPOKER TEAM.
+        </mj-text>
+        <mj-spacer height="30px" />
+        <mj-text align="left" font-size="15px" color="#1f9d56" font-family="helvetica" line-height="24px">
+          *if you never tried to link your account with this email address, please ignore this email. thank you.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#000000">
+      <mj-column width="100%">
+        <mj-divider width="90%" border-width="0.5px" border-color="#414141" />
+        <mj-text font-weight="bold" align="center" font-size="15px" color="#1f9d56" font-family="NotoSansHans-Black">NEED SOME HELP?</mj-text>
+      </mj-column>
+      <mj-column width="80%">
+        <mj-social align="left" font-size="12px" icon-size="36.5px" mode="horizontal" color="#ffffff" inner-padding="10px" align="center">
+          <mj-social-element  text-padding="0 20px 0 0" src="https://github.com/firebellyppt/images/blob/master/img/mail-bulk-solid.png?raw=true">
+            EMAIL US:INFO@KKPOKER
+          </mj-social-element>
+          <mj-social-element src="https://github.com/firebellyppt/images/blob/master/img/whatsapp-square-brands.png?raw=true">
+            INSTANT REPLY
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-divider width="90%" border-width="0.5px" border-color="#414141" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#000000" border-bottom="0.5px solid #1f9d56" border-top="0.5px solid #1f9d56">
+      <mj-column width="100%">
+        <mj-text font-weight="bold" align="center" font-size="14px" color="#ffffff" font-family="PingFang SC" line-height="24px">
+          FOLLOW US ON:
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-social font-size="12px" icon-size="35px" mode="horizontal" color="#ffffff" inner-padding="5px" align="center">
+          <mj-social-element src="https://github.com/firebellyppt/images/blob/master/img/soccial_icon_facebook.png?raw=true" href="https://www.facebook.com/kkpokerglobal?utm_medium=facebook&utm_source=newsletter">
+          </mj-social-element>
+          <mj-social-element src="https://github.com/firebellyppt/images/blob/master/img/soccial_icon_instagram.png?raw=true" href="https://www.instagram.com/kkpokerglobal/?utm_medium=ins&utm_source=newsletter">
+          </mj-social-element>
+          <mj-social-element src="https://github.com/firebellyppt/images/blob/master/img/soccial_icon_twitter.png?raw=true" href="https://twitter.com/kkpokerglobal?utm_medium=twitter&utm_source=newsletter">
+          </mj-social-element>
+          <mj-social-element src="https://github.com/firebellyppt/images/blob/master/img/soccial_icon_vk.png?raw=true" href="https://vk.com/kkpokercis?utm_medium=vk&utm_source=newsletter">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#000000">
+      <mj-column width="100%">
+        <mj-text color="#1f9d56" font-size="14px">
+          <a href="https://www.kkpoker.net/pc/PrivacyPolicy" target="_blank" style="color:#4a965b;text-decoration: underline;">Privacy
+            Policy</a>&nbsp;
+          &nbsp;| &nbsp; <a href="https://www.kkpoker.net/pc/TermsOfService" target="_blank" style="color:#4a965b;text-decoration: underline;">Terms
+            of Service</a>&nbsp; &nbsp;</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-social mode="horizontal" color="#ffffff" inner-padding="0px" align="center">
+          <mj-social-element icon-size="80px" icon-height="47px" src="https://github.com/firebellyppt/images/blob/master/img/icon12.png?raw=true" href="https://www.gov.im/categories/business-and-industries/gambling-and-e-gaming/licence-holders/">
+          </mj-social-element>
+          <mj-social-element icon-size="80px" icon-height="47px" src="https://github.com/firebellyppt/images/blob/master/img/icon16.png?raw=true">
+          </mj-social-element>
+          <mj-social-element icon-size="80px" icon-height="47px" src="https://github.com/firebellyppt/images/blob/master/img/icon15.png?raw=true" href="https://www.gamcare.org.uk/">
+          </mj-social-element>
+          <mj-social-element icon-size="165px" icon-height="48px" src="https://github.com/firebellyppt/images/blob/master/img/icon14.png?raw=true" href="https://www.begambleaware.org/">
+          </mj-social-element>
+          <mj-social-element icon-size="48px" src="https://github.com/firebellyppt/images/blob/master/img/icon13.png?raw=true">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-divider width="100%" border-width="0.5px" border-color="#414141" />
+      </mj-column>
+      <mj-column width="100%" padding-right="3%">
+        <mj-text align="left" font-size="11px" color="#777777" font-family="helvetica" line-height="15px">
+          KKPoker is a brand and registered business name owned by AceKing IOM Limited. AceKing IOM Limited, having its registered address at 49 Victoria Street, Douglas, Isle of Man, IM1 2LD, is licensed and regulated by the Isle of Man Gambling Supervision Commission (license issued on 24th July 2019).
+          Persons under the age of 18 are not allowed to create accounts and/or participate in gambling at KKPoker. Online Gambling debts are enforceable in law in the Isle of Man.
+        </mj-text>
+        <mj-text align="left" font-size="11px" color="#777777" font-family="helvetica" line-height="15px">
+          The content of this email is confidential and intended for the recipient specified in message only. It is strictly forbidden to share any part of this message with any third party, without a written consent of the sender. Should you receive this message by mistake, we would be most grateful if you inform us by return email that the message has been sent to you. In this case, we also ask that you delete this message from your mailbox, and do not forward it or any part of it to anyone else. Thank you for your cooperation and understanding.
+          This message is sent to you because your email address is on our subscribers list. To unsubscribe from our subscribers list and stop receiving emails from us, please send an email to privacy@kkpoker.net</mj-text>
+        <mj-text align="left" font-size="11px" color="#777777" font-family="helvetica" line-height="15px">
+          Copyright © 2020 KKPoker. All Rights Reserved.
+        </mj-text>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
