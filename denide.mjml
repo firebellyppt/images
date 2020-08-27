@@ -47,14 +47,12 @@
         </mj-column>
       </mj-section>
       <mj-section padding="0">
-        <mj-column width="100%">
-          <mj-button width="70%" height="54px" color="#c5536a" background-color="#000000" border="4px solid #c5536a" border-radius="10px" font-size="29px" font-family="NotoSansHans" font-weight="900">
-            <mj-social>
-              <mj-social-element>
-                DENIED
-              </mj-social-element>
-            </mj-social>
-          </mj-button>
+        <mj-column width="70%" padding="0" border="4px solid #c5536a" border-radius="10px">
+          <mj-social color="#c5536a" inner-padding="10px" font-size="29px" font-family="NotoSansHans" font-weight="900">
+            <mj-social-element icon-size="30px" src="https://github.com/firebellyppt/images/blob/master/img/icons8-delete.png?raw=true">
+              DENIED
+            </mj-social-element>
+          </mj-social>
         </mj-column>
       </mj-section>
       <mj-section background-color="#000000">
