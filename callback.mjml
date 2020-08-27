@@ -16,10 +16,10 @@
     <mj-section background-color="#000000" background-size="cover" background-url="https://github.com/firebellyppt/images/blob/master/img/Image_banner.png?raw=true" vertical-align="middle" background-repeat="no-repeat">
       <mj-column width="100%">
         <mj-spacer height="29px"></mj-spacer>
-        <mj-text font-weight="bold" align="left" font-size="32px" color="#ffffff" font-family="helvetica">THANKS FOR</mj-text>
         <mj-text font-weight="bold" align="left" font-size="32px" color="#ffffff" font-family="helvetica">
-          PLAYING <span style="color:#1f9d56">KK</span>POKER
+          <span style="color:#1f9d56">KK</span>POKER
         </mj-text>
+        <mj-text font-weight="bold" align="left" font-size="32px" color="#ffffff" font-family="helvetica">MISSES YOU!</mj-text>
         <mj-spacer height="87px"></mj-spacer>
       </mj-column>
     </mj-section>
@@ -27,39 +27,17 @@
       <mj-column>
         <mj-text font-weight="bold" align="left" font-size="23px" color="#ffffff" font-family="helvetica">Hi {nickname},</mj-text>
         <mj-text align="left" font-size="19px" color="#b7b7b7" font-family="helvetica" line-height="24px">
-          We've received your withdraw request, and it succeed, you will recieve the money in few days.
+          You haven't logged in KKPoker for {{X}} days, log in now to enjoy the fun with worldwide poker lovers!
         </mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section padding="0" background-color="#000000">
-      <mj-column width="100%">
-        <mj-divider width="100%" border-width="0.5px" border-color="#414141" />
-      </mj-column>
-    </mj-section>
-
-    <mj-wrapper background-color="#000000" padding="0">
-      <mj-section background-color="#000000">
-        <mj-column width="100%">
-          <mj-text align="left" font-family="NotoSansHans" color="#ffffff" font-size="21px" line-height="15px">
-            Withdraw status:
-          </mj-text>
-        </mj-column>
-      </mj-section>
+    <mj-wrapper background-color="#000000" padding="0 0 5% 0">
       <mj-section padding="0">
-        <mj-column width="70%" padding="0" border-radius="10px" border="4px solid #c5536a">
-          <mj-social color="#c5536a" icon-padding="0px 20% 0px 0px" font-size="26px" font-family="NotoSansHans" font-weight="900">
-            <mj-social-element icon-size="30px" src="https://github.com/firebellyppt/images/blob/master/img/icons8-delete.png?raw=true">
-              DENIED
-            </mj-social-element>
-          </mj-social>
-        </mj-column>
-      </mj-section>
-      <mj-section background-color="#000000">
         <mj-column width="100%">
-          <mj-text align="center" font-size="19px" color="#b7b7b7" font-family="PingFang SC" line-height="24px">
-            If you have any questions do not hesitate to contact us.
-          </mj-text>
+          <mj-button width="60%" height="44px" color="#ffffff" background-color="#1f9d56" border="4px solid #1f9d56" border-radius="10px" font-size="23px" font-family="NotoSansHans" font-weight="900">
+            PLAY NOW!
+          </mj-button>
         </mj-column>
       </mj-section>
     </mj-wrapper>

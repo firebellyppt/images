@@ -1,6 +1,6 @@
 <mjml>
  <mj-head>
-   <mj-breakpoint width="210px" />
+   <mj-breakpoint width="10px" />
   </mj-head>
   <mj-body background-color="#414141" >
     <mj-section border-bottom="0.5px solid #1f9d56" background-color="#000000" padding="3% 0 1% 0 ">
