@@ -24,13 +24,13 @@
     </mj-section>
     <mj-section background-color="#000000">
       <mj-column>
-        <mj-text font-weight="bold" align="left" font-size="23px" color="#ffffff" font-family="helvetica">Hi {nickname},</mj-text>
+        <mj-text font-weight="bold" align="left" font-size="23px" color="#ffffff" font-family="helvetica">Hi {{nickname}},</mj-text>
         <mj-text align="left" font-size="19px" color="#b7b7b7" font-family="helvetica" line-height="24px">
           To strengthen your account security, kkpoker needs to verify your identity first.<br>
           verifying your account will also allow account recovery if necessary.
         </mj-text>
         <mj-spacer height="14px"></mj-spacer>
-        <mj-button width="230px" height="46px" align="center" background-color="#1f9d56" border-radius="10px" font-family="PingFang SC" font-size="23px" href="https://www.google.com">Verify my email</mj-button>
+        <mj-button width="230px" height="46px" align="center" background-color="#1f9d56" border-radius="10px" font-family="PingFang SC" font-size="23px" href={{verifyLink}}>Verify my email</mj-button>
         <mj-spacer height="24px"></mj-spacer>
         <mj-text align="left" font-size="19px" color="#b7b7b7" font-family="helvetica" line-height="24px">
           Thank you for helping us strengthen your account security.This verification email will expire in 30 minutes.
